@@ -4,7 +4,7 @@
 
     # git add .
     # git commit -m "MESSAGE HERE"
-    # git add .
+    # git push
 
 # TO PUSH TO MAIN #
 
