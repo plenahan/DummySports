@@ -13,4 +13,8 @@
     # git merge **YOUR BRANCH NAME**
     # git push origin main
 
-#  #
+# TO PULL FROM MAIN #
+
+    # git checkout **YOUR BRANCH NAME**
+    # git fetch origin
+    # git merge origin/main
