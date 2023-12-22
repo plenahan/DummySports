@@ -4,15 +4,15 @@
 
 #### Core Components ####
 
-<View> - A container
+    <View> - A container
 
-<Text> - Displays, styles, and nests strings of texts
+    <Text> - Displays, styles, and nests strings of texts
 
-<Image> - Displays images
+    <Image> - Displays images
 
-<ScrollView> - Generic scrolling container that can contain multiple components and views
+    <ScrollView> - Generic scrolling container that can contain multiple components and views
 
-<TextInput> - Allows the user to enter text
+    <TextInput> - Allows the user to enter text
 
 ## GITHUB HELP ##
 
