@@ -1,5 +1,19 @@
 # DummySports #
 
+## REACT NATIVE NOTES ##
+
+#### Core Components ####
+
+<View> - A container
+
+<Text> - Displays, styles, and nests strings of texts
+
+<Image> - Displays images
+
+<ScrollView> - Generic scrolling container that can contain multiple components and views
+
+<TextInput> - Allows the user to enter text
+
 ## GITHUB HELP ##
 
 ### TO PUSH TO YOUR BRANCH ###
@@ -20,4 +34,3 @@
     # git checkout **YOUR BRANCH NAME**
     # git fetch origin
     # git merge origin/main
-
