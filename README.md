@@ -1,7 +1,7 @@
 # DummySports #
 
 ## REACT NATIVE NOTES ##
-### David Loves You ###
+### Danial Loves You ###
 #### Core Components ####
 
     <View> - A container
