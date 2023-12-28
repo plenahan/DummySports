@@ -1,7 +1,6 @@
 # DummySports #
 
 ## REACT NATIVE NOTES ##
-### Patrick Loves You ###
 #### Core Components ####
 
     <View> - A container
