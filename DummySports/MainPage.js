@@ -1,17 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import Header from './Header';
-import Footer from './Footer';
-import MainPage from './MainPage';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header />
-      <ScrollView style={styles.ScrollView}>
-        <MainPage/>
-      </ScrollView>
-      <Footer />
+      <Text style={styles.header}>Upcoming Games</Text>
     </View>
   );
 }
@@ -25,7 +17,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
   },
-  ScrollView: {
-    zIndex: -1,
+  header: {
+    fontSize: 30,
   }
 });
