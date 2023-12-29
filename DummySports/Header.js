@@ -1,4 +1,4 @@
-import { StyleSheet, View, Image, Text, Alert, TouchableOpacity, Button } from 'react-native';
+import { StyleSheet, View, Image, Text, Alert, TouchableOpacity, Button, ScrollView } from 'react-native';
 import Menu from './assets/nav.svg';
 import Collapsible from 'react-native-collapsible';
 import { useState } from 'react';
@@ -34,11 +34,13 @@ export default function Header() {
             source={require('./assets/dummysports.png')}/>
       </View>
       <View style={styles.sportSliderBorder}>
-          <Button title = "NBA"/>
-          <Button title = "NFL"/>
-          <Button title = "CBB"/>
-          <Button title = "CFB"/>
-        </View> 
+        <ScrollView horizontal={true}>
+            <Button title = "NBA"/>
+            <Button title = "NFL"/>
+            <Button title = "CBB"/>
+            <Button title = "CFB"/>
+          </ScrollView> 
+      </View>
     </View>
   );
 }
@@ -68,7 +70,7 @@ const styles = StyleSheet.create({
   },
   expandedNav: {
     display: 'block',
-    marginLeft: 10,
+    // marginLeft: 10,
     backgroundColor: 'darkgray',
   },
   navItem: {

@@ -8,7 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Header />
-      <ScrollView style={styles.ScrollView}>
+      <ScrollView style={styles.mainPageContainer}>
         <MainPage/>
       </ScrollView>
       <Footer />
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
   },
-  ScrollView: {
+  mainPageContainer: {
     zIndex: -1,
   }
 });
