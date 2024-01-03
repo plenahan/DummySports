@@ -36,7 +36,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#d0caca',
     // alignItems: 'center',
     flexGrow: 1,
     flexDirection: 'column',
@@ -44,16 +44,19 @@ const styles = StyleSheet.create({
   },
   header: {
     fontSize: 30,
+    color: '#2c2929',
+    fontWeight: 'bold'
   },
   gamesContainer: {
     flex: 1,
     justifyContent: 'space-between',
-    backgroundColor: '#fff',
+    backgroundColor: '#d0caca',
     // padding: 10,
     // margin: 5,
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   gamesBorder: {
+    borderColor: '#2c2929',
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     borderBottomLeftRadius: 20,

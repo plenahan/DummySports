@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
     // borderColor: 'black',
     // borderWidth: 2,
     marginTop: 20,
+    backgroundColor: '#d0caca'
   },
   logo: {
     width: 280,
@@ -71,17 +72,18 @@ const styles = StyleSheet.create({
   expandedNav: {
     display: 'block',
     // marginLeft: 10,
-    backgroundColor: 'darkgray',
+    backgroundColor: '#b6aaaa',
   },
   navItem: {
     fontSize: 20,
     color: 'white',
   },
   sportSliderBorder: {
-    borderColor: 'black',
+    borderColor: '#2c2929',
     borderWidth: 2,
     marginTop: 10,
     flexDirection: 'row',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: '#d0caca'
   },
 });
