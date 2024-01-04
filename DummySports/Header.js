@@ -35,10 +35,10 @@ export default function Header() {
       </View>
       <View style={styles.sportSliderBorder}>
         <ScrollView horizontal={true}>
-            <Button title = "NBA"/>
-            <Button title = "NFL"/>
-            <Button title = "CBB"/>
-            <Button title = "CFB"/>
+            <Button title="NBA" color='#a675f1'/>
+            <Button title="NFL" color='#a675f1'/>
+            <Button title="CBB" color='#a675f1'/>
+            <Button title="CFB" color='#a675f1'/>
           </ScrollView> 
       </View>
     </View>
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     // borderColor: 'black',
     // borderWidth: 2,
     marginTop: 20,
-    backgroundColor: '#d0caca'
+    backgroundColor: '#e9eaee'
   },
   logo: {
     width: 280,
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   menu: {
-    color: '#0DEE68',
+    color: '#a675f1',
     // position: 'absolute'
   },
   navContainer: {
@@ -72,18 +72,19 @@ const styles = StyleSheet.create({
   expandedNav: {
     display: 'block',
     // marginLeft: 10,
-    backgroundColor: '#b6aaaa',
+    backgroundColor: '#e9eaee',
   },
   navItem: {
     fontSize: 20,
     color: 'white',
   },
   sportSliderBorder: {
-    borderColor: '#2c2929',
-    borderWidth: 2,
+    borderColor: '#4d3745',
+    borderWidth: 0,
     marginTop: 10,
     flexDirection: 'row',
     justifyContent: 'center',
-    backgroundColor: '#d0caca'
+    backgroundColor: '#e9eaee',
+    borderRadius: 20
   },
 });

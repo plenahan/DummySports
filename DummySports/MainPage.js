@@ -36,7 +36,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#d0caca',
+    backgroundColor: '#e9eaee',
     // alignItems: 'center',
     flexGrow: 1,
     flexDirection: 'column',
@@ -50,17 +50,14 @@ const styles = StyleSheet.create({
   gamesContainer: {
     flex: 1,
     justifyContent: 'space-between',
-    backgroundColor: '#d0caca',
+    backgroundColor: '#e9eaee',
     // padding: 10,
     // margin: 5,
     flexDirection: 'row',
   },
   gamesBorder: {
     borderColor: '#2c2929',
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
-    borderBottomLeftRadius: 20,
-    borderBottomRightRadius: 20,
+    borderRadius: 20,
     paddingHorizontal: 70,
     paddingVertical: 55,
     margin: 10,

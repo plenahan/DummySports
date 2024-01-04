@@ -34,10 +34,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   footerItems: {
-    marginLeft: '5%',
-    marginRight: '5%',
+    marginLeft: '4.5%',
+    marginRight: '4.5%',
   },
   color: {
-      color: '#0dee68'
+      color: '#a675f1'
   }
 });
