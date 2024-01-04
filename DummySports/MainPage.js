@@ -29,6 +29,15 @@ export default function App() {
                 <View style={styles.gamesBorder}/>
             </View>
         </ScrollView>
+
+        <Text style={styles.header}>Friend's Bets</Text>
+        <ScrollView horizontal={true}>
+            <View style={styles.gamesContainer}>
+                <View style={styles.gamesBorder}/>
+                <View style={styles.gamesBorder}/>
+                <View style={styles.gamesBorder}/>
+            </View>
+        </ScrollView>
     </View>
   );
 }
